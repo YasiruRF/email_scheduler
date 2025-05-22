@@ -59,7 +59,7 @@ if __name__ == "__main__":
     service = gmail_authenticate()
     recipients = read_recipients_from_csv("data.csv")
 
-    attachment_path = "CUC_Sports_Meet_2025_Sponsorship_Proposal.pdf"  # Replace with your actual file name
+    attachment_path = "Broucher.pdf"  # Replace with your actual file name
 
     for r in recipients:
         name = r['name']
